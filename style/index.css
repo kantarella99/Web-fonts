@@ -1,0 +1,61 @@
+main {
+    padding: 8%;
+}
+
+.chapter {
+    padding-bottom: 70px;
+}
+
+h2 {
+    font-family: Francois One;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    padding-bottom: 40px;
+}
+
+sup {
+    font-family: Farro;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+}
+
+p {
+    font-family: PT Sans;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
+.line {
+    text-decoration: underline;
+}
+
+.italic{
+    font-family: PT Sans;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
+.bold {
+    font-family: PT Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
+p {
+    padding-bottom: 40px;
+}
+
+.bg {
+    background-color: gray;
+}
