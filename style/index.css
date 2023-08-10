@@ -2,6 +2,73 @@ main {
     padding: 8%;
 }
 
+hr {
+    width: 100px;
+    height: 8px;
+    background-color: black;
+    margin: 10px 0;
+}
+
+.bgr {
+    background-image: url(../img/bg-picture.png);
+    background-repeat: no-repeat;
+    background-position:100% 5%;
+    background-attachment: fixed;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 84vw;
+    padding: 10px 8% 0;
+    column-gap: 50px;
+    align-items: center;
+    background-color: white;
+    z-index: 2;
+}
+
+header p {
+    padding: 0;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+}
+
+header img {
+    width: 237px;
+    height: 54px;
+}
+
+.eng {
+    font-family: Tourney;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    line-height: 1;
+}
+
+nav a, nav li {
+    font-family: Staatliches;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
 .chapter {
     padding-bottom: 70px;
 }
@@ -57,5 +124,109 @@ p {
 }
 
 .bg {
-    background-color: gray;
+    background-color: rgb(128, 128, 128, 0.4);
+}
+
+.mmmm {
+    display: flex;
+}
+
+.sidebar {
+    align-self: flex-start;
+    position: sticky;
+    top: 8vh;
+    z-index: 1;
+    width: 25%;
+    font-family: Francois One;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    padding-right: 5%;
+}
+
+.sidebar a {
+    color: black;
+    text-decoration:none
+}
+
+.sidebar li {
+    border-bottom: 1px solid rgba(189, 189, 189, 1);
+    margin-bottom: 50px;
+}
+
+.main {
+    width: 60%;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 270px;
+    height: 180px;
+    margin: 10px;
+}
+  
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    border-radius: 8px;
+}
+  
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.flip-card-front {
+    color: black;
+}
+  
+.flip-card-back {
+    transform: rotatex(180deg);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateX(180deg);
+    cursor: pointer;
+}
+
+.logos {
+    display: flex;
+}
+
+.H2 {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.H2 h2 {
+    padding: 0%;
+}
+
+.H2 hr {
+    align-self: center;
+    margin: 0 10px;
+}
+
+.logos.one {
+    border-top: 1px solid;
+    border-color: rgba(191, 191, 191, 1);
+    width: 87%;
+}
+
+.logos.two {
+    border-bottom: 1px solid;
+    border-color: rgba(191, 191, 191, 1);
+    width: 87%;
 }
